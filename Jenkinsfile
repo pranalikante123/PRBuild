@@ -8,7 +8,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                eccho 'Prstage'
+                eccho 'prstage'
             }
         }
     }
