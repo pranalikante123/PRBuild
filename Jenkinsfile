@@ -6,10 +6,6 @@ pipeline {
                 echo 'hello world'
             }
         }
-        stage('develo') {
-            steps {
-                echo 'prstage'
-            }
-        }
     }
 }
+
