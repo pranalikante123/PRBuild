@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                eccho 'hello world'
+                echo 'hello world'
             }
         }
         stage('compile') {
             steps {
-                eccho 'prstage'
+                echo 'prstage'
             }
         }
     }
