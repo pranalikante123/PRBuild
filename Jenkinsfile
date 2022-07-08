@@ -6,9 +6,9 @@ pipeline {
                 eccho 'hello world'
             }
         }
-        stage('build') {
+        stage('compile') {
             steps {
-                eccho 'Prstage'
+                eccho 'prstage'
             }
         }
     }
