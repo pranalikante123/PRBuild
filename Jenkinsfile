@@ -3,7 +3,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'hello worl'
+                echo 'hello world'
+            }
+        }
+        stage('Compile') {
+            steps {
+                echo 'this is programming language'
             }
         }
     }
