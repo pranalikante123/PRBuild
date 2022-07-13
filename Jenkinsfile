@@ -18,7 +18,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                echo 'this is programming'
+                echo 'this is language'
             }
         }
     }
