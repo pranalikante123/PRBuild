@@ -6,9 +6,14 @@ pipeline {
                 echo 'hello world'
             }
         }
-        stage('Compile') {
+        stage('test') {
             steps {
-                echo 'this is programming languag'
+                echo 'this is programming language'
+            }
+        }
+        stage('compile') {
+            steps {
+                echo 'this is programming language'
             }
         }
     }
