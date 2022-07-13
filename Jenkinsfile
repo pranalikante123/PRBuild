@@ -13,7 +13,7 @@ pipeline {
         }
         stage('compile') {
             steps {
-                echo 'this is programming language'
+                echo 'this is programming'
             }
         }
         stage('deploy') {
