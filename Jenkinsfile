@@ -13,7 +13,7 @@ pipeline {
         }
         stage('compile') {
             steps {
-                echo 'i want to do pr build'
+                echo 'we are friends'
             }
         }
         stage('deploy') {
