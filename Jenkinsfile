@@ -11,11 +11,6 @@ pipeline {
                 echo 'this is programming language'
             }
         }
-        stage('compile') {
-            steps {
-                echo 'this is pr build example'
-            }
-        }
         stage('deploy') {
             steps {
                 bat 'systeminfo'
