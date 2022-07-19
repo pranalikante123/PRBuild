@@ -18,7 +18,7 @@ pipeline {
         }
         stage('compile') {
             steps {
-                echo 'this is language'
+                echo 'this is'
             }
         }
     }
