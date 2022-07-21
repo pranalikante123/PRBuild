@@ -18,7 +18,7 @@ pipeline {
         }
         stage('compile') {
             steps {
-                echo 'pranali'
+                echo 'pranal'
             }
         }
     }
