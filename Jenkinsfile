@@ -11,7 +11,7 @@ pipeline {
                 echo 'this is programming language'
             }
         }
-        stage('deplo') {
+        stage('deploy') {
             steps {
                 bat 'systeminfo'
             }
