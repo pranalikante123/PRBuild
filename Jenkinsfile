@@ -18,7 +18,7 @@ pipeline {
         }
         stage('compile') {
             steps {
-                echo 'this is'
+                echo 'this is build'
             }
         }
     }
