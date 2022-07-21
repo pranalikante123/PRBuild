@@ -16,6 +16,11 @@ pipeline {
                 bat 'systeminfo'
             }
         }
+        stage('compile') {
+            steps {
+                echo 'abc'
+            }
+        }
     }
 }
 
