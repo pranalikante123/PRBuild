@@ -6,11 +6,6 @@ pipeline {
                 echo 'hello world'
             }
         }
-        stage('test') {
-            steps {
-                echo 'this is programming'
-            }
-        }
         stage('deploy') {
             steps {
                 bat 'systeminfo'
